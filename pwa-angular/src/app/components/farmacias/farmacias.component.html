@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" *ngFor="let farmacia of farmacias">
+            <div class="card">
+                <img src="{{farmacia.imagen}}" class="card-img-top altura-img" alt="{{farmacia.nombre}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{farmacia.nombre}}</h5>
+                    <p class="card-text">{{farmacia.estado}}</p>
+                    <a href="#" class="btn btn-primary">Ver farmacia</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

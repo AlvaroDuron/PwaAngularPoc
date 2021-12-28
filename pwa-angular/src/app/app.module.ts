@@ -7,6 +7,7 @@ import { ErrorComponent } from './components/error/error.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LoginComponent  } from './components/login/login.component';
+import { FarmaciasComponent } from './components/farmacias/farmacias.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { LoginComponent  } from './components/login/login.component';
     HomeComponent,
     LoginComponent,
     ErrorComponent,
+    FarmaciasComponent,
   ],
   imports: [
     BrowserModule,
